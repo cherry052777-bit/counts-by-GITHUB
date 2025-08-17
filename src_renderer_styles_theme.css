@@ -1,0 +1,30 @@
+:root {
+  --bg-color: rgb(9,36,73);
+  --btn-color: rgb(0,161,133);
+  --text-color: rgb(225,225,225);
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Microsoft YaHei";
+}
+
+button {
+  background: var(--btn-color);
+  color: var(--text-color);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+
+input, select {
+  background: #223a57;
+  color: var(--text-color);
+  border: none;
+  outline: none;
+  padding: 0.4rem;
+  margin: 0.2rem 0;
+}

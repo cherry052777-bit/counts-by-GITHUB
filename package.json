@@ -1,0 +1,33 @@
+{
+  "name": "meidao-math",
+  "version": "1.0.0",
+  "description": "每道都算数 - Mac数学练习软件",
+  "main": "src/main/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "electron": "electron .",
+    "build": "react-scripts build",
+    "electron-build": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^29.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.6.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
